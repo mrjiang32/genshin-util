@@ -1,0 +1,22 @@
+{
+  "name": "ys-text-download",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "clean": "node utils/clean.js",
+    "clean:all": "node utils/clean.js -a"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^6.0.0",
+    "cheerio": "^1.2.0",
+    "node-fetch": "^3.3.2",
+    "ora": "^9.4.1",
+    "rimraf": "^6.1.3"
+  },
+  "type": "module"
+}
