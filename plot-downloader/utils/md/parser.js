@@ -22,8 +22,8 @@ export function cleanRawText(text) {
   );
 }
 
-const b = (t) => setMark("**", t);
-const i = (t) => setMark("*", t);
+export const b = (t) => setMark("**", t);
+export const i = (t) => setMark("*", t);
 
 export function convertInlineTags($, $el) {
   $el.find("b, strong, span").each((_, el) => {
@@ -74,7 +74,7 @@ export function parseDl($, $el) {
           return;
         }
 
-        const $child = $(child)
+        const $child = $(child);
         convertInlineTags($, $child);
 
         const text = cleanRawText($child.text());
@@ -100,6 +100,8 @@ export function parseContainer($, $root) {
   // 包装容器不处理直接文本节点，避免重复解析
   const WRAPPER_CLASSES = ["plotBox", "plotFrame", "shipChat"];
   const isWrapper = WRAPPER_CLASSES.some((cls) => $root.hasClass(cls));
+
+  convertInlineTags($, $root);
 
   $root.contents().each((_, node) => {
     if (node.type === "text") {

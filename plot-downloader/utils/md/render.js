@@ -1,14 +1,15 @@
 import { safeLog } from "../logger.js";
+import { b } from "./parser.js";
 
 export function renderBranchGroup(node, indent) {
   let out = "";
   for (const br of node.branches) {
-    out += `  \n${indent}#### ${br.tabTitle}\n\n`;
+    out += `  \n${indent}### ${br.tabTitle}\n\n`;
     const max = Math.max(br.options.length, br.blocks.length);
     for (let i = 0; i < max; i++) {
       const opt = br.options[i];
       const blockItems = br.blocks[i];
-      if (opt) out += `${indent}- 选项： **${opt.replaceAll("*", "")}**  \n`;
+      if (opt) out += `${indent}- 选项：${b(opt)}  \n`;
       if (blockItems && blockItems.length > 0) {
         const childIndent = opt ? indent + "  " : indent;
         out += renderContentItems(blockItems, childIndent) + "  \n";
@@ -77,7 +78,7 @@ export function renderPlainPlotGroup(node, indent, isNested = false) {
   for (let i = 0; i < max; i++) {
     const opt = node.options[i];
     const blockItems = node.blocks[i];
-    if (opt) out += `${indent}- 选项： **${opt.replaceAll("*", "")}**  \n`;
+    if (opt) out += `${indent}- 选项：${b(opt)}  \n`;
     if (blockItems && blockItems.length > 0) {
       const childIndent = opt ? indent + "  " : indent;
       out += renderContentItems(blockItems, childIndent) + "  \n";

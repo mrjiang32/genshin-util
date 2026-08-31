@@ -27,6 +27,10 @@ function fixInlineMergedDialogues(md) {
   const lines = md.split("\n");
   const outLines = [];
 
+  // 预定义正则，避免在循环中重复创建
+  const punctuationRegex = /[,.\uFF0C\u3002:：]/;
+  const chatRegex = /^([^:：]+)[:：](.*)$/;
+
   for (const line of lines) {
     const prefixRe = /^(\s*(?:[>-]\s*)*)/;
     const prefixMatch = prefixRe.exec(line);
@@ -43,25 +47,38 @@ function fixInlineMergedDialogues(md) {
       continue;
     }
 
-    const chatRegex = /^([^:：]+)[:：](.*)$/;
+    // 核心修改：只有当内容包含空格时，才进行拆分处理
+    if (
+      content.includes(" ") &&
+      content
+        .trim()
+        .split(" ")
+        .every((s) => punctuationRegex.test(s) || chatRegex.test(s))
+    ) {
+      const subLines = content
+        .trim()
+        .split(" ")
+        .map((s) => {
+          if (punctuationRegex.test(s) || chatRegex.test(s)) {
+            const match = s.match(chatRegex);
+            if (match) {
+              return `${fullPrefix}- ${setMark("**", match[1].trim())}：${match[2].trim()}`;
+            }
+            return `${fullPrefix}- ${setMark("**", s)}`;
+          }
+          return s;
+        });
 
-    const subLines = content
-      .trim()
-      .split(" ")
-      .map((s) => s.replace(fullPrefix))
-      .map((s) => {
-        const match = s.match(chatRegex);
-
-        if (match) {
-          return `${setMark("**", s)}：${match[2].trim()}`;
-        }
-        return s;
-      });
-
-    outLines.push(...subLines);
+      outLines.push(...subLines);
+    } else {
+      // 不包含空格，直接保留原样
+      outLines.push(line);
+    }
   }
 
-  return outLines.join("  \n");
+  // return md;
+
+  return outLines.join("  \n").trimEnd() + "  \n";
 }
 
 export function parseAst($, nodes) {
@@ -162,7 +179,7 @@ export function renderAst(ast, depth = 0) {
   for (const node of ast) {
     switch (node.type) {
       case "heading":
-        out += `${indent}### ${node.text}\n\n`;
+        out += `${indent}## ${node.text}\n\n`;
         break;
       case "text":
         if (node.text.trim()) out += `${indent}${node.text}\n\n`;
