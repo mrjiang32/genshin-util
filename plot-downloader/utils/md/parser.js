@@ -1,5 +1,15 @@
 import { safeLog } from "../logger.js";
 
+export function setMark(mark, text) {
+  if (text.startsWith(mark) && text.endsWith(mark)) {
+    return text;
+  }
+  if (text.startsWith("「") && text.endsWith("」")) {
+    return `「${mark}${text.slice(1, -1)}${mark}」`;
+  }
+  return `${mark}${text}${mark}`;
+}
+
 export function cleanRawText(text) {
   return (
     text
@@ -13,29 +23,29 @@ export function cleanRawText(text) {
 }
 
 export function convertInlineTags($, $el) {
-  $el.find("b, strong").each((_, el) => {
-    let text = $(el).text().trim();
-    if (text.startsWith("「") && text.endsWith("」")) {
-      const inner = text.slice(1, -1);
-      text = `「**${inner}**」`;
-    } else {
-      text = `**${text}**`;
-    }
-    $(el).replaceWith(text);
-  });
-
-  $el.find("span").each((_, span) => {
-    let text = $(span).text().trim();
-    if (text.startsWith("「") && text.endsWith("」")) {
-      const inner = text.slice(1, -1);
-      text = `「**${inner}**」`;
-    } else {
-      text = `**${text}**`;
-    }
-    $(span).replaceWith(text);
+  $el.contents().each((_, node) => {
+    processNode($, $(node));
   });
 }
 
+function processNode($, $node) {
+  if ($node.length === 0 || $node[0].nodeType !== 1) return;
+
+  $node.contents().each((_, child) => {
+    processNode($, $(child));
+  });
+
+  const tagName = $node[0].nodeName?.toLowerCase();
+  const isBold = ["b", "strong", "span"].includes(tagName);
+  const isItalic = ["i", "em"].includes(tagName);
+
+  if (isBold || isItalic) {
+    const innerContent = $node.html();
+
+    const mark = isBold ? "**" : "*";
+    $node.replaceWith(setMark(mark, innerContent));
+  }
+}
 export function parseTextDialogue(text) {
   const t = cleanRawText(text);
   if (t === "MediaWiki:PlotOptions") {
@@ -71,30 +81,6 @@ export function parseDl($, $el) {
 
         if (tag === "dl") {
           inner.push(parseDl($, $(child)));
-          return;
-        }
-
-        if (tag === "span" || tag === "b" || tag === "strong") {
-          let text = `${$(child).text().trim()}`;
-          if (text.startsWith("「") && text.endsWith("」")) {
-            const inner = text.slice(1, -1);
-            text = `**「**${inner}**」**`;
-          } else {
-            text = `**${text}**`;
-          }
-          inner.push({ type: "text", text });
-          return;
-        }
-
-        if (tag === "em" || tag === "i") {
-          let text = `${$(child).text().trim()}`;
-          if (text.startsWith("「") && text.endsWith("」")) {
-            const inner = text.slice(1, -1);
-            text = `「*${inner}*」`;
-          } else {
-            text = `*${text}*`;
-          }
-          inner.push({ type: "text", text });
           return;
         }
 

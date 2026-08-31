@@ -11,6 +11,7 @@ import {
   cleanRawText,
   convertInlineTags,
   parseBlockQuote,
+  setMark,
 } from "./md/parser.js";
 import {
   renderBranchGroup,
@@ -22,54 +23,46 @@ import {
   renderUl,
 } from "./md/render.js";
 
-/**
- * 修复同一行挤压多条对话 A:xxx B:xxx C:xxx
- * ✅ 完整继承行前缀：空格缩进、>、-、* 等markdown标记
- * @param {string} md
- * @returns {string}
- */
-/**
- * 修复同一行挤压多条对话 A:xxx B:xxx C:xxx
- * @param {string} md
- * @returns {string}
- */
 function fixInlineMergedDialogues(md) {
-  const lines = md.split('\n');
+  const lines = md.split("\n");
   const outLines = [];
 
   for (const line of lines) {
-    const prefixRe = /^(\s*(?:[>*-]\s*)*)/;
+    const prefixRe = /^(\s*(?:[>-]\s*)*)/;
     const prefixMatch = prefixRe.exec(line);
     const fullPrefix = prefixMatch[1];
     const content = line.slice(fullPrefix.length);
 
-    if (!content.trim()) {
+    if (
+      /<[^>]+>/g.test(content) ||
+      /^#{1,6}\s/.test(content) ||
+      content.trim().split(" ") ||
+      !content.trim()
+    ) {
       outLines.push(line);
       continue;
     }
 
-    if (/^#{1,6}\s/.test(content)) {
-      outLines.push(line);
-      continue;
-    }
+    const chatRegex = /^([^:：]+)[:：](.*)$/;
 
-    // 匹配 空格+角色:，角色1‑20字符，冒号后非行尾，不匹配行开头
-    const dialogRe = /(?<!^)(\s+)([^：:\n]{1,20}[:：])(?!\s*$)/g;
+    const subLines = content
+      .trim()
+      .split(" ")
+      .map((s) => s.replace(fullPrefix))
+      .map((s) => {
+        const match = s.match(chatRegex);
 
-    // 关键：  两个空格 + \n + 完整前缀 + speaker
-    const newContent = content.replace(dialogRe, (_m, _space, speaker) => {
-      return `  \n${fullPrefix}${speaker}`;
-    });
+        if (match) {
+          return `${setMark("**", s)}：${match[2].trim()}`;
+        }
+        return s;
+      });
 
-    const processed = `${fullPrefix}${newContent}`;
-    const subLines = processed.split('  \n');
     outLines.push(...subLines);
   }
 
-  return outLines.join('  \n');
+  return outLines.join("  \n");
 }
-
-
 
 export function parseAst($, nodes) {
   const ast = [];
