@@ -27,12 +27,13 @@ export function renderDl(dlNode, indent = "") {
     for (const item of dd.items) {
       if (item.type === "text") {
         // text 节点：直接输出（span 解析时已自带 ** 加粗标记）
-        out += `${indent}- ${item.text}  \n`;
+        out += `${indent}> ${item.text}  \n`;
       } else if (item.type === "dl") {
         // 嵌套 dl：递归渲染，缩进加深
-        out += renderDl(item, indent + "  ");
+        out += renderDl(item, indent + (dd.items.filter((s) => s.type === "dl").length === 1 ? "" : "  "));
       }
     }
+    out += (dd.items.filter((s) => s.type === "dl").length === 1 ? "" : ">  \n")
   }
 
   return out;
@@ -62,6 +63,10 @@ export function renderContentItems(items, indent, isBlockquote = false) {
     } else if (it.type === "subPlotGroup") {
       const subIndent = indent + "  ";
       out += renderPlainPlotGroup(it.group, subIndent, true);
+    } else if (it.type === "text") {
+      out += `${indent}${it.text}`;
+    } else if (it.type === "dl") {
+      out += renderDl(it, indent);
     }
   }
   return out;

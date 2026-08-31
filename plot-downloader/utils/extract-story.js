@@ -81,6 +81,19 @@ function fixInlineMergedDialogues(md) {
   return outLines.join("  \n").trimEnd() + "  \n";
 }
 
+export function fixMultipleDash(md) {
+  let final = "";
+  /** @type {Array<String>} */
+  const lines = md.split("\n");
+  for (const line of lines) {
+    const l = line.split("-");
+    if (l.length >= 3) {
+      final += l.join("").replace(l[l.length - 1], `-${l[l.length - 1]}`);
+    } else final += line + "  \n";
+  }
+  return final;
+}
+
 export function parseAst($, nodes) {
   const ast = [];
   let i = 0;
@@ -231,6 +244,7 @@ export function extractor($, rootEl) {
   let mdBody = renderAst(ast, 0);
 
   mdBody = fixInlineMergedDialogues(mdBody);
+  mdBody = fixMultipleDash(mdBody);
 
   mdBody = mdBody.replace(/(\n\s*){3,}/g, "\n\n").trim();
   return mdBody;

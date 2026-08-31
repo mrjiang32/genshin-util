@@ -176,26 +176,12 @@ export function parseContainer($, $root) {
       }
 
       if (tagName === "span" || tagName === "b" || tagName === "strong") {
-        let text = `${$el.text().trim()}`;
-        if (text.startsWith("「") && text.endsWith("」")) {
-          const inner = text.slice(1, -1);
-          text = `「**${inner}**」`;
-        } else {
-          text = `**${text}**`;
-        }
-        items.push({ type: "dialog", speaker: null, content: text });
+        items.push({ type: "text", text: b($el.text().trim()) });
         return;
       }
 
       if (tagName === "em" || tagName === "i") {
-        let text = `${$el.text().trim()}`;
-        if (text.startsWith("「") && text.endsWith("」")) {
-          const inner = text.slice(1, -1);
-          text = `「*${inner}*」`;
-        } else {
-          text = `*${text}*`;
-        }
-        items.push({ type: "dialog", speaker: null, content: text });
+        items.push({ type: "text", text: i($el.text().trim()) });
         return;
       }
 
@@ -228,7 +214,13 @@ export function parseContainer($, $root) {
       continue;
     }
     if (item.type === "dialog" && !item.speaker) {
-      buffer += (buffer ? " " : "") + item.content;
+      console.log(item.content)
+      buffer += ((buffer === "" ? "" : " ") + item.content);
+    } else if (item.type === "dialog" && item.speaker) {
+      if (buffer.trim()) {
+        merged.push({ type: "dialog", ...parseTextDialogue(buffer) });
+      }
+      buffer = `${item.speaker}：${item.content}`;
     } else {
       if (buffer.trim()) {
         merged.push({ type: "dialog", ...parseTextDialogue(buffer) });

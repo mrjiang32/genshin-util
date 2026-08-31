@@ -36,7 +36,7 @@ export async function sleepWithProgress(ms, onTick) {
 
   while (Date.now() < endTime) {
     const remainingMs = endTime - Date.now();
-    const remainingSec = Math.ceil(remainingMs / 1000);
+    const remainingSec = Math.floor(remainingMs / 1000);
     
     // 告诉外部还剩几秒
     onTick(remainingSec); 
