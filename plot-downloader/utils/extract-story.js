@@ -36,8 +36,8 @@ function fixInlineMergedDialogues(md) {
     if (
       /<[^>]+>/g.test(content) ||
       /^#{1,6}\s/.test(content) ||
-      content.trim().split(" ") ||
-      !content.trim()
+      !content.trim() ||
+      content.replace(fullPrefix, "").trim().split(" ").length <= 1
     ) {
       outLines.push(line);
       continue;

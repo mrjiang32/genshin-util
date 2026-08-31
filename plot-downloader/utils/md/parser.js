@@ -22,30 +22,20 @@ export function cleanRawText(text) {
   );
 }
 
+const b = (t) => setMark("**", t);
+const i = (t) => setMark("*", t);
+
 export function convertInlineTags($, $el) {
-  $el.contents().each((_, node) => {
-    processNode($, $(node));
+  $el.find("b, strong, span").each((_, el) => {
+    let text = b($(el).text().trim());
+    $(el).replaceWith(text);
+  });
+  $el.find("i, e").each((_, el) => {
+    let text = i($(el).text().trim());
+    $(el).replaceWith(text);
   });
 }
 
-function processNode($, $node) {
-  if ($node.length === 0 || $node[0].nodeType !== 1) return;
-
-  $node.contents().each((_, child) => {
-    processNode($, $(child));
-  });
-
-  const tagName = $node[0].nodeName?.toLowerCase();
-  const isBold = ["b", "strong", "span"].includes(tagName);
-  const isItalic = ["i", "em"].includes(tagName);
-
-  if (isBold || isItalic) {
-    const innerContent = $node.html();
-
-    const mark = isBold ? "**" : "*";
-    $node.replaceWith(setMark(mark, innerContent));
-  }
-}
 export function parseTextDialogue(text) {
   const t = cleanRawText(text);
   if (t === "MediaWiki:PlotOptions") {
@@ -84,7 +74,10 @@ export function parseDl($, $el) {
           return;
         }
 
-        const text = cleanRawText($(child).text());
+        const $child = $(child)
+        convertInlineTags($, $child);
+
+        const text = cleanRawText($child.text());
         if (text) {
           inner.push({ type: "text", text: text.trim() });
         }
@@ -100,12 +93,6 @@ export function parseDl($, $el) {
   };
 }
 
-/**
- * 按 DOM 顺序递归解析容器内所有节点，生成 items 数组
- * 保证文本、列表、子剧情的顺序和原文完全一致
- * @param {CheerioStatic} $ cheerio 实例
- * @param {Cheerio} $root 根容器
- */
 export function parseContainer($, $root) {
   const items = [];
   const subOptTexts = new Set();
