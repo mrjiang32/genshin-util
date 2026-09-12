@@ -113,7 +113,7 @@ function handleHtmlFile(srcFilePath, outputRoot) {
     writeFileSync(outFile, mdText, "utf8");
     console.log(`${srcFilePath} → ${outFile}`);
   } catch (err) {
-    console.error(`处理失败 ${srcFilePath}:`, err.message);
+    console.error(`处理失败 ${srcFilePath}:`, err.stack);
   }
 }
 

@@ -125,7 +125,18 @@ _parsers.ul = ($, $el, $parent) => {
     children,
   };
 };
-_parsers.div = genParser("node");
+_parsers.div = ($, $el, $parent) => {
+  const style = $el.attr("style")?.replace(/\s+/g, "").toLowerCase() ?? "";
+  
+  // Keep right-aligned blocks identifiable so their original alignment can be
+  // retained by the renderer instead of treating them as ordinary divs.
+  if (/(?:^|;)text-align:right(?:;|$)/.test(style) && $el.children().length > 0) {
+    return { type:"html", html: $el.html() };
+  }
+
+  const children = parseAll($, $el);
+  return { type: "node", children };
+};
 _parsers.blockquote = genParser("quote");
 _parsers.h1 = genHeadingParser("h1");
 _parsers.h2 = genHeadingParser("h1");
@@ -137,9 +148,7 @@ _parsers.br = ($, $el) => ({ type: "text", text: "\n" });
 _parsers["#null"] = _parsers.null;
 _parsers["span.smw-highlighter"] = _parsers.null;
 
-// TODO
 _parsers["div.plotBox"] = ($, $el, $parent) => {
-  console.log("Parsing div.plotBox");
   let opts = [];
   let contents = [];
   $el.children(".plotOptions").each((_, el) => {
@@ -160,7 +169,7 @@ _parsers["div.plotBox"] = ($, $el, $parent) => {
       if (!content || content.type !== "node") return;
       return {
         type: "node",
-        children: [{ type: "element", children: opt.children }, { type: "indent", children: content.children }],
+        children: [{ type: "inline-block", children: [{ type: "bold", children: opt.children }] }, { type: "indent", children: content.children }],
       };
     }).filter((opt) => opt)
   };
@@ -170,6 +179,40 @@ _parsers["div.plotFrame"] = _parsers.div;
 _parsers["div.plotOptions"] = _parsers.div;
 _parsers["div.content"] = _parsers.div;
 _parsers["div.resourceLoader"] = _parsers.null;
+
+_parsers["div.shipChat"] = ($, $el, $parent) => {
+  const chatBox = $el.children(".chatBox").first();
+  if (!chatBox.length) return { type: "null" };
+  const chatTitle = chatBox.children(".chat_title").first();
+  const textBox = chatBox.children(".chat_textbox").first();
+
+  return {
+    type: "dialog",
+    speaker: chatTitle.text()?.trim() ?? "",
+    text: textBox.text()?.trim() ?? "",
+  };
+};
+
+_parsers["div.ys-collapse-frame"] = ($, $el, $parent) => {
+  const title = $el.children(".ys-collapse-name").first().children(".ys-collapse-title").first();
+  const explain = $el.children(".ys-collapse-name").first().children(".ys-collapse-explain").first();
+  const collapseContent = $el.children(".ys-collapse-content").first();
+
+  return {
+    type: "quote",
+    children: [
+      {
+        type: "inline-block",
+        children: [
+          { type: "bold", children: parseAll($, title) },
+          { type: "text", text: "  " },
+          { type: "italic", children: parseAll($, explain) },
+        ],
+      },
+      { type: "node", children: parseAll($, collapseContent) },
+    ],
+  };
+}
 
 _parsers["dl"] = ($, $el, $parent) => {
   const children = parseAll($, $el);

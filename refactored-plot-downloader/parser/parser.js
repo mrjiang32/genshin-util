@@ -37,6 +37,8 @@ function renderSingleNode(node) {
     case "text":
       return node.text ?? "";
 
+    case "strong":
+    case "b":
     case "bold": {
       const childLines = node.children ? renderMdAst(node.children) : [];
       const content = childLines.join("");
@@ -46,6 +48,8 @@ function renderSingleNode(node) {
       return `**${content}**`;
     }
 
+    case "i":
+    case "em":
     case "italic": {
       const childLines = node.children ? renderMdAst(node.children) : [];
       const content = childLines.join("");
@@ -100,15 +104,22 @@ function renderSingleNode(node) {
       return childLines.join("");
     }
 
+    case "html": {
+      return node.children?.html ?? "";
+    }
+
     case "quote": {
       const childLines = node.children ? renderMdAst(node.children) : [];
-      return childLines.map((line) => {
+      let mapped = childLines.map((line) => {
         // 如果子行本身已经是引用了，直接在最前面加 >，避免变成 > >
         if (line.startsWith(">")) {
           return `>${line}`;
         }
-        return [`> ${line}`, `  \n`];
+        return `> ${line}`;
       });
+      // 在引用块后加一个空行，分隔后续内容
+      mapped.push("");
+      return mapped;
     }
 
     case "null":
