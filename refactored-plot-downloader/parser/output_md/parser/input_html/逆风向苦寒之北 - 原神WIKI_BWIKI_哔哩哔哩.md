@@ -1,6 +1,6 @@
 ## 与派蒙交谈  
 > 终于，你和派蒙准备启程前往旅途的下一站——至冬…  
->   
+> <div style="text-align: right;"><img alt="图标-位置.png" src="https://patchwiki.biligame.com/images/ys/thumb/4/44/bllofl3gq4aa05rhontlz73y8d43fvb.png/14px-%E5%9B%BE%E6%A0%87-%E4%BD%8D%E7%BD%AE.png" decoding="async" loading="lazy" width="14" height="17" srcset="https://patchwiki.biligame.com/images/ys/thumb/4/44/bllofl3gq4aa05rhontlz73y8d43fvb.png/21px-%E5%9B%BE%E6%A0%87-%E4%BD%8D%E7%BD%AE.png 1.5x, https://patchwiki.biligame.com/images/ys/thumb/4/44/bllofl3gq4aa05rhontlz73y8d43fvb.png/28px-%E5%9B%BE%E6%A0%87-%E4%BD%8D%E7%BD%AE.png 2x" data-file-width="512" data-file-height="630"><span style="color:9b835e">挪德卡莱 那夏镇</span></div>  
   
 > **直接到达至冬**  *折叠*  
 > - **派蒙**：转眼已经到至冬了啊，我有种刚刚才离开挪德卡莱的感觉。  
@@ -45,7 +45,7 @@
 - > - **与朋友享用美食，追忆冒险时光，时间过得格外快。 将欢笑与温暖收进行囊，旅途又翻开了全新的一页。**   
 ## 抵达至冬  
 > 终于，你和派蒙准备启程前往旅途的下一站——至冬…  
->   
+> <div style="text-align: right;"><img alt="图标-位置.png" src="https://patchwiki.biligame.com/images/ys/thumb/4/44/bllofl3gq4aa05rhontlz73y8d43fvb.png/14px-%E5%9B%BE%E6%A0%87-%E4%BD%8D%E7%BD%AE.png" decoding="async" loading="lazy" width="14" height="17" srcset="https://patchwiki.biligame.com/images/ys/thumb/4/44/bllofl3gq4aa05rhontlz73y8d43fvb.png/21px-%E5%9B%BE%E6%A0%87-%E4%BD%8D%E7%BD%AE.png 1.5x, https://patchwiki.biligame.com/images/ys/thumb/4/44/bllofl3gq4aa05rhontlz73y8d43fvb.png/28px-%E5%9B%BE%E6%A0%87-%E4%BD%8D%E7%BD%AE.png 2x" data-file-width="512" data-file-height="630"><span style="color:9b835e">至冬 古兽冰原</span></div>  
   
 ## 与派蒙交谈  
 - **派蒙**：哇，一片白茫茫的，好漂亮。旅行者，快跟上来吧。  
@@ -102,7 +102,7 @@
 - > - **你与派蒙顶着风雪一路向前，在经过一座桥梁时，你被突如其来的暴风雪吹落到了桥底，与派蒙失散了…**   
 ## 调查四周，寻找派蒙踪迹  
 > …被风雪吹落木桥，似乎掉到了奇怪的地方…派蒙也并不在身边。不知道派蒙怎么样了，得快点找到她。  
->   
+> <div style="text-align: right;"><img alt="图标-位置.png" src="https://patchwiki.biligame.com/images/ys/thumb/4/44/bllofl3gq4aa05rhontlz73y8d43fvb.png/14px-%E5%9B%BE%E6%A0%87-%E4%BD%8D%E7%BD%AE.png" decoding="async" loading="lazy" width="14" height="17" srcset="https://patchwiki.biligame.com/images/ys/thumb/4/44/bllofl3gq4aa05rhontlz73y8d43fvb.png/21px-%E5%9B%BE%E6%A0%87-%E4%BD%8D%E7%BD%AE.png 1.5x, https://patchwiki.biligame.com/images/ys/thumb/4/44/bllofl3gq4aa05rhontlz73y8d43fvb.png/28px-%E5%9B%BE%E6%A0%87-%E4%BD%8D%E7%BD%AE.png 2x" data-file-width="512" data-file-height="630"><span style="color:9b835e">至冬 古兽冰原</span></div>  
   
 - **旅行者**：（唔，这里是…）  
 - **旅行者**：（派蒙…得赶快找到她…）  
@@ -297,7 +297,7 @@
 - **「灰眸」**：除此之外的时间我会保持静默，避免不必要的麻烦。现在，请您随我到铁轨旁。  
 ## 前往屋外  
 > 总算是找到了派蒙，还意外地见到了愚人众的统括官「丑角」。但和探索谜团相比，还是先找到能让派蒙休息取暖的地方更重要…  
->   
+> <div style="text-align: right;"><img alt="图标-位置.png" src="https://patchwiki.biligame.com/images/ys/thumb/4/44/bllofl3gq4aa05rhontlz73y8d43fvb.png/14px-%E5%9B%BE%E6%A0%87-%E4%BD%8D%E7%BD%AE.png" decoding="async" loading="lazy" width="14" height="17" srcset="https://patchwiki.biligame.com/images/ys/thumb/4/44/bllofl3gq4aa05rhontlz73y8d43fvb.png/21px-%E5%9B%BE%E6%A0%87-%E4%BD%8D%E7%BD%AE.png 1.5x, https://patchwiki.biligame.com/images/ys/thumb/4/44/bllofl3gq4aa05rhontlz73y8d43fvb.png/28px-%E5%9B%BE%E6%A0%87-%E4%BD%8D%E7%BD%AE.png 2x" data-file-width="512" data-file-height="630"><span style="color:9b835e">至冬 古兽冰原</span></div>  
   
 ## 启用「灰眸」  
 - **「灰眸」**：如果打算启程，请告诉我。  

@@ -105,7 +105,8 @@ function renderSingleNode(node) {
     }
 
     case "html": {
-      return node.children?.html ?? "";
+      console.log("Rendering raw HTML node:", JSON.stringify(node, null, 2));
+      return node?.html ?? "";
     }
 
     case "quote": {

@@ -127,11 +127,11 @@ _parsers.ul = ($, $el, $parent) => {
 };
 _parsers.div = ($, $el, $parent) => {
   const style = $el.attr("style")?.replace(/\s+/g, "").toLowerCase() ?? "";
-  
+
   // Keep right-aligned blocks identifiable so their original alignment can be
   // retained by the renderer instead of treating them as ordinary divs.
   if (/(?:^|;)text-align:right(?:;|$)/.test(style) && $el.children().length > 0) {
-    return { type:"html", html: $el.html() };
+    return { type: "html", html: $el.html() ? `<div style="text-align: right;">${$el.html().trim()}</div>` : "" };
   }
 
   const children = parseAll($, $el);
