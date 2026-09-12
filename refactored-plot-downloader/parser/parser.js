@@ -107,7 +107,7 @@ function renderSingleNode(node) {
         if (line.startsWith(">")) {
           return `>${line}`;
         }
-        return `> ${line}`;
+        return [`> ${line}`, `  \n`];
       });
     }
 

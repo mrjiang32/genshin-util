@@ -118,16 +118,24 @@ _parsers.em = genParser("italic");
 _parsers.i = genParser("italic");
 _parsers.p = genParser("node");
 _parsers.li = genParser("element");
-_parsers.ul = genParser("indent");
+_parsers.ul = ($, $el, $parent) => {
+  const children = parseAll($, $el);
+  return {
+    type: _genTag($parent) === "li" ? "indent" : "node",
+    children,
+  };
+};
 _parsers.div = genParser("node");
 _parsers.blockquote = genParser("quote");
 _parsers.h1 = genHeadingParser("h1");
 _parsers.h2 = genHeadingParser("h1");
 _parsers.h3 = genHeadingParser("h2");
 _parsers.h4 = genHeadingParser("h3");
+_parsers.null = () => ({ type: "null" });
 _parsers.br = ($, $el) => ({ type: "text", text: "\n" });
-_parsers["#null"] = (_, __, ___) => ({ type: "null" });
-_parsers["span.smw-highlighter"] = (_, __, ___) => ({ type: "null" });
+
+_parsers["#null"] = _parsers.null;
+_parsers["span.smw-highlighter"] = _parsers.null;
 
 // TODO
 _parsers["div.plotBox"] = ($, $el, $parent) => {
@@ -152,7 +160,7 @@ _parsers["div.plotBox"] = ($, $el, $parent) => {
       if (!content || content.type !== "node") return;
       return {
         type: "node",
-        children: [{type: "inline-block", children: opt.children}, { type: "indent", children: content.children }],
+        children: [{ type: "element", children: opt.children }, { type: "indent", children: content.children }],
       };
     }).filter((opt) => opt)
   };
@@ -161,5 +169,28 @@ _parsers["div.plotBox"] = ($, $el, $parent) => {
 _parsers["div.plotFrame"] = _parsers.div;
 _parsers["div.plotOptions"] = _parsers.div;
 _parsers["div.content"] = _parsers.div;
+_parsers["div.resourceLoader"] = _parsers.null;
+
+_parsers["dl"] = ($, $el, $parent) => {
+  const children = parseAll($, $el);
+  // A dl/dd/dl wrapper is only structural; avoid adding another quote level.
+  const onlyDd = $el.children().length === 1 && $el.children().first().is("dd");
+  const $dd = onlyDd ? $el.children().first() : null;
+  const onlyDlInDd = $dd && $dd.children().length === 1 && $dd.children().first().is("dl");
+  return {
+    type: onlyDd && onlyDlInDd ? "node" : "quote",
+    children,
+  };
+}
+
+_parsers["dt"] = ($, $el, $parent) => {
+  const children = parseAll($, $el);
+  return {
+    type: "element",
+    children,
+  };
+}
+
+_parsers["dd"] = _parsers["dt"];
 
 export default Object.freeze(_parsers);
