@@ -88,7 +88,7 @@ export function fixMultipleDash(md) {
   for (const line of lines) {
     const l = line.split("-");
     if (l.length >= 3) {
-      final += l.join("").replace(l[l.length - 1], `-${l[l.length - 1]}`);
+      final += l.join("").replace(l[l.length - 1], `-${l[l.length - 1]}`) + "  \n";
     } else final += line + "  \n";
   }
   return final;
