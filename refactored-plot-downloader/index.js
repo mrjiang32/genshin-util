@@ -12,15 +12,15 @@ import {
   safeNestedPath,
   ensureDir,
   sleepWithProgress,
-} from "../plot-downloader/utils/utils.js";
-import { parseIndexPage } from "../plot-downloader/utils/list-parser.js";
+} from "./utils/utils.js";
+import { parseIndexPage } from "./utils/list-parser.js";
 import {
   INDEX_PAGES,
   CONTENT_JSON,
   OUT_DIR,
   REQUEST_DELAY,
   BASE_URL,
-} from "../plot-downloader/utils/config.js";
+} from "./utils/config.js";
 import { convertDirectory } from "./parser/convert.js";
 import {
   failProgress,
@@ -29,7 +29,7 @@ import {
   updateProgress,
   initProgress,
   incrementProgress,
-} from "../plot-downloader/utils/logger.js";
+} from "./utils/logger.js";
 
 const { values: cliOptions } = parseArgs({
   options: {
