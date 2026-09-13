@@ -1,10 +1,9 @@
 import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from "fs";
-import { join, extname, relative, dirname, basename, parse } from "path";
+import { join, extname, dirname, basename } from "path";
 import { load } from "cheerio";
 import parser from "./parser.js";
 import { fileURLToPath } from "url";
 
-// const parseAll = parser.parseAll;s
 const parseOne = parser.parseOne;
 const renderMdAst = parser.renderMdAst;
 
@@ -17,18 +16,16 @@ function cleanRawText(text) {
 }
 
 /**
- * 【复刻你的extractor选取逻辑，不做html序列化！直接操作dom】
+ * 复刻extractor选取逻辑，直接操作DOM
  * @param {cheerio.CheerioAPI} $
  * @param {cheerio.Cheerio<cheerio.Element>} rootEl
  * @returns {MarkdownNode[]} ast节点数组
  */
 function extractStoryAst($, rootEl) {
   if (!rootEl.length) return [];
-
   const $parserOutput = rootEl.find(".mw-parser-output").first();
   if ($parserOutput.length) rootEl = $parserOutput;
 
-  // 定位任务剧情h2/h3
   const taskStoryHeading = rootEl
     .find("h2,h3")
     .filter((_, el) => cleanRawText($(el).text()) === "任务剧情");
@@ -40,7 +37,6 @@ function extractStoryAst($, rootEl) {
     targetDomElements = rootEl.find("> *").toArray();
   }
 
-  // 直接逐个调用parseOne，不序列化html字符串
   const astResult = [];
   for (const el of targetDomElements) {
     const nodeAst = parseOne($, $(el), rootEl);
@@ -64,14 +60,19 @@ function processDirectory(srcDir, destDir) {
   if (!existsSync(destDir)) {
     mkdirSync(destDir, { recursive: true });
   }
+
   const entries = readdirSync(srcDir, { withFileTypes: true });
   for (const entry of entries) {
     const srcFull = join(srcDir, entry.name);
-    const destFull = join(destDir, entry.name);
     if (entry.isDirectory()) {
+      // 目录：递归保持一一对应
+      const destFull = join(destDir, entry.name);
       processDirectory(srcFull, destFull);
     } else if (entry.isFile() && extname(entry.name).toLowerCase() === ".html") {
-      handleHtmlFile(srcFull, destDir);
+      // 文件：直接算出目标md路径，传给处理函数
+      const baseName = basename(entry.name, ".html");
+      const destFull = join(destDir, `${baseName}.md`);
+      handleHtmlFile(srcFull, destFull);
     }
   }
 }
@@ -79,60 +80,53 @@ function processDirectory(srcDir, destDir) {
 /**
  * 处理单个html
  * @param {string} srcFilePath 源html完整路径
- * @param {string} outputRoot 输出根目录
+ * @param {string} destFilePath 目标md完整路径
  */
-function handleHtmlFile(srcFilePath, outputRoot) {
-  const rel = relative(process.cwd(), srcFilePath);
-  const relDir = dirname(rel);
-  const baseName = basename(srcFilePath, ".html");
-
-  const outDir = join(outputRoot, relDir);
-  const outFile = join(outDir, `${baseName}.md`);
-  if (!existsSync(outDir)) {
-    mkdirSync(outDir, { recursive: true });
-  }
-
+function handleHtmlFile(srcFilePath, destFilePath) {
   try {
     const htmlContent = readFileSync(srcFilePath, "utf8");
     const $ = load(htmlContent);
-
-    // 选取入口：#mw-content-text
     const rootEl = $("#mw-content-text");
     const ast = extractStoryAst($, rootEl);
 
     if (!ast || ast.length === 0) {
       console.log(`无剧情内容 ${srcFilePath}`);
-      writeFileSync(outFile, "", "utf8");
+      writeFileSync(destFilePath, "", "utf8");
       return;
     }
 
     let mdText = renderMdAst(ast).join("  \n");
-    // 换行压缩
+    // 换行压缩 + 清理冗余标记
     mdText = mdText.replace("MediaWiki:PlotOptions", "").replace(/(\n\s*){3,}/g, "\n\n").trim();
 
-    writeFileSync(outFile, mdText, "utf8");
-    console.log(`${srcFilePath} → ${outFile}`);
+    // 确保目标目录存在
+    const outDir = dirname(destFilePath);
+    if (!existsSync(outDir)) {
+      mkdirSync(outDir, { recursive: true });
+    }
+
+    writeFileSync(destFilePath, mdText, "utf8");
+    console.log(`${srcFilePath} → ${destFilePath}`);
   } catch (err) {
     console.error(`处理失败 ${srcFilePath}:`, err.stack);
   }
 }
 
 // ========== CLI入口 ==========
-/**
- * @typedef {{src:string,dest:string}} CliOpts
- * @type {CliOpts}
- */
 const url = import.meta.url;
 const pathdir = dirname(fileURLToPath(url));
+
 const opts = {
-  src: join(pathdir,"./input_html"),
-  dest: join(pathdir,"./output_md")
+  src: join(pathdir, "./input_html"),
+  dest: join(pathdir, "./output_md")
 };
+
 const args = process.argv.slice(2);
 for (const arg of args) {
-  if(arg.startsWith("--src=")) opts.src = arg.slice("--src=".length);
-  if(arg.startsWith("--dest=")) opts.dest = arg.slice("--dest=".length);
+  if (arg.startsWith("--src=")) opts.src = arg.slice("--src=".length);
+  if (arg.startsWith("--dest=")) opts.dest = arg.slice("--dest=".length);
 }
+
 console.log(`源目录: ${opts.src}`);
 console.log(`输出目录: ${opts.dest}`);
 processDirectory(opts.src, opts.dest);

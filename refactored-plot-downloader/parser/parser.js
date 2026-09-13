@@ -87,7 +87,8 @@ function renderSingleNode(node) {
     // 缩进容器：递归获取子节点行，并在每行前面加上缩进（例如 2 个空格）
     case "indent":
       const childLines = node.children ? renderMdAst(node.children) : [];
-      return childLines.map((line) => `  ${line}`);
+      let mapped = childLines.map((line) => `  ${line}`);
+      return mapped;
 
     // 普通块级容器：直接平铺子节点
     case "node":
@@ -104,6 +105,9 @@ function renderSingleNode(node) {
       return childLines.join("");
     }
 
+    case "newline":
+      return "\n";
+
     case "html": {
       return node?.html ?? "";
     }
@@ -111,6 +115,9 @@ function renderSingleNode(node) {
     case "quote": {
       const childLines = node.children ? renderMdAst(node.children) : [];
       let mapped = childLines.map((line) => {
+        if (line.trim() === "") {
+          return ">"; // 空行也要加上引用符号，避免破坏引用块的结构
+        }
         // 如果子行本身已经是引用了，直接在最前面加 >，避免变成 > >
         if (line.startsWith(">")) {
           return `>${line}`;

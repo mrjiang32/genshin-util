@@ -162,16 +162,22 @@ _parsers["div.plotBox"] = ($, $el, $parent) => {
     contents.push({ type: "node", children: childNodes });
   });
 
+  let children = opts.map((opt, index) => {
+    if (opt.type !== "node") return;
+    const content = contents[index];
+    if (!content || content.type !== "node") return;
+    return {
+      type: "quote",
+      children: [{ type: "newline" }, {
+        type: "inline-block", children:
+          [{ type: "bold", children: opt.children }]
+      },
+      { type: "indent", children: content.children }],
+    };
+  }).filter((opt) => opt)
+
   return {
-    type: "node", children: opts.map((opt, index) => {
-      if (opt.type !== "node") return;
-      const content = contents[index];
-      if (!content || content.type !== "node") return;
-      return {
-        type: "node",
-        children: [{ type: "inline-block", children: [{ type: "bold", children: opt.children }] }, { type: "indent", children: content.children }],
-      };
-    }).filter((opt) => opt)
+    type: "node", children
   };
 }
 
@@ -216,12 +222,8 @@ _parsers["div.ys-collapse-frame"] = ($, $el, $parent) => {
 
 _parsers["dl"] = ($, $el, $parent) => {
   const children = parseAll($, $el);
-  // A dl/dd/dl wrapper is only structural; avoid adding another quote level.
-  const onlyDd = $el.children().length === 1 && $el.children().first().is("dd");
-  const $dd = onlyDd ? $el.children().first() : null;
-  const onlyDlInDd = $dd && $dd.children().length === 1 && $dd.children().first().is("dl");
   return {
-    type: onlyDd && onlyDlInDd ? "node" : "quote",
+    type: "node",
     children,
   };
 }
@@ -229,11 +231,29 @@ _parsers["dl"] = ($, $el, $parent) => {
 _parsers["dt"] = ($, $el, $parent) => {
   const children = parseAll($, $el);
   return {
-    type: "element",
+    type: "bold",
     children,
   };
 }
 
 _parsers["dd"] = _parsers["dt"];
+
+_parsers["div.tabber"] = ($, $el, $parent) => {
+  let tabbers = []
+  $el.children(".tabbertab").each((_, el) => {
+    const $el = $(el);
+    const childNodes = parseAll($, $el);
+    tabbers.push({
+      type: "node", children: [
+        { type: "h3", children: [{ type: "text", text: $el.attr("title") ?? "" }] },
+        { type: "node", children: childNodes }
+      ]
+    });
+  })
+  return {
+    type: "node",
+    children: tabbers,
+  };
+}
 
 export default Object.freeze(_parsers);

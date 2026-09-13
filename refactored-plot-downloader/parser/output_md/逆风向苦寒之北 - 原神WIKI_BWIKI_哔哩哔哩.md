@@ -10,17 +10,27 @@
 - **派蒙**：这应该也是你的血亲所说的「旅途的终点」，她/他想要让你见证什么呢…  
 - **派蒙**：哎，只要还没到至冬，就觉得路还很长很长，吃喝玩乐的时候也没什么负担。  
 - **派蒙**：但一想到终点就在眼前，这些问题就都会涌进脑袋里，一下子就紧张起来了。  
-**![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)也是时候了。**  
-**![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)我也会有点忐忑。**  
+>  
+> **![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)也是时候了。**  
+  
+>  
+> **![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)我也会有点忐忑。**  
+  
 - **派蒙**：嗯，不过现在我也想通了，用这样的心态踏上最后一段旅程是不对的！  
 - **派蒙**：我们对抗过魔龙和海怪，击败过神明的造物，直面过预言与深渊的危机，现在更是连月亮都去过了。  
 - **派蒙**：还有什么是我们没见过，没经历过的呢？  
-**![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)有道理，谢谢你帮我打气。**  
+>  
+> **![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)有道理，谢谢你帮我打气。**  
+  
 - **派蒙**：不用客气，那就跟紧你的超级好向导派蒙，一鼓作气冲向终点吧，我们出发！  
 - **？？？**：没有想我的事？  
 - **派蒙**：呜哇，哥伦比娅？你还是这么神出鬼没…  
-**![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)你怎么知道我在这里…**  
-**![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)我应该没告诉任何人…**  
+>  
+> **![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)你怎么知道我在这里…**  
+  
+>  
+> **![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)我应该没告诉任何人…**  
+  
 - **派蒙**：别、别看我，这次我可没有出卖你！  
 - **努昂诺塔**：——！  
 - **派蒙**：原来是你啊，好吧，那确实瞒不住。  
@@ -33,16 +43,23 @@
 - **哥伦比娅**：「虽然我们合作的这段时光…还算不错吧，但毕竟立场不同，届时别搞得双方都很为难。」  
 - **派蒙**：怎么说呢，很像是她会说的话，无论是态度还是道理…好吧，我们会尽量和她保持距离的。  
 - **哥伦比娅**：不，我觉得她这段话的意思是，想让你们去见她。  
-**![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)为、为什么？**  
+>  
+> **![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)为、为什么？**  
+  
 - **哥伦比娅**：只要不做到「双方都为难」这一步就好了。  
 - **派蒙**：原来还可以这么理解啊…  
 - **哥伦比娅**：快去「旗舰」吧，大家都已经陆续到齐了。我告诉 [菈乌玛](/ys/%E8%8F%88%E4%B9%8C%E7%8E%9B) ，曾经你为我准备过印象深刻的一餐。  
 - **哥伦比娅**：今天，也想借这个机会还给你。嗯…不对，想要「送」给你。  
 - **派蒙**：嘿嘿，这种时候还想着「有借有还」，也太见外啦。  
-**![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)确实，没必要算那么清楚。**  
-**![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)我还会回来看看的。**  
+>  
+> **![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)确实，没必要算那么清楚。**  
+  
+>  
+> **![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)我还会回来看看的。**  
+  
 - **哥伦比娅**：嗯，挪德卡莱的月亮也永远欢迎你。  
-- > - **与朋友享用美食，追忆冒险时光，时间过得格外快。 将欢笑与温暖收进行囊，旅途又翻开了全新的一页。**   
+**与朋友享用美食，追忆冒险时光，时间过得格外快。
+将欢笑与温暖收进行囊，旅途又翻开了全新的一页。**  
 ## 抵达至冬  
 > 终于，你和派蒙准备启程前往旅途的下一站——至冬…  
 > <div style="text-align: right;"><img alt="图标-位置.png" src="https://patchwiki.biligame.com/images/ys/thumb/4/44/bllofl3gq4aa05rhontlz73y8d43fvb.png/14px-%E5%9B%BE%E6%A0%87-%E4%BD%8D%E7%BD%AE.png" decoding="async" loading="lazy" width="14" height="17" srcset="https://patchwiki.biligame.com/images/ys/thumb/4/44/bllofl3gq4aa05rhontlz73y8d43fvb.png/21px-%E5%9B%BE%E6%A0%87-%E4%BD%8D%E7%BD%AE.png 1.5x, https://patchwiki.biligame.com/images/ys/thumb/4/44/bllofl3gq4aa05rhontlz73y8d43fvb.png/28px-%E5%9B%BE%E6%A0%87-%E4%BD%8D%E7%BD%AE.png 2x" data-file-width="512" data-file-height="630"><span style="color:9b835e">至冬 古兽冰原</span></div>  
@@ -56,50 +73,65 @@
 - **派蒙**：你看，有鹿！和挪德卡莱见过的有点像，只是没有月矩力留下的影响了。  
 - **派蒙**：这说明我们真的已经到至冬了啊。  
 - **派蒙**：宝箱，宝箱，冒险怎么能少了宝箱呢…  
-- > - **派蒙飞向宝箱后被雪掩埋**   
+**派蒙飞向宝箱后被雪掩埋**  
 - **派蒙**：呜哇——！  
 - **派蒙**：救命啊，旅行者！  
 ## 帮助派蒙脱困  
-**![image](https://patchwiki.biligame.com/images/ys/thumb/1/12/376mn8ywnuzohuih2b2vabuxbtummk9.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E8%B0%83%E6%9F%A5.png)帮助派蒙**  
+>  
+> **![image](https://patchwiki.biligame.com/images/ys/thumb/1/12/376mn8ywnuzohuih2b2vabuxbtummk9.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E8%B0%83%E6%9F%A5.png)帮助派蒙**  
+  
 ## 继续一同前进  
 - **派蒙**：呸呸，吃了一嘴的雪…  
 - **派蒙**：嘶，好冷。你快让我蹭蹭，暖和一点。  
-- > - **跟上派蒙**   
+**跟上派蒙**  
 - **派蒙**：哇，你看那个，是熊吗？好大哦，毛绒绒的，真可爱。  
 - **派蒙**：帮我留个影吧！就在这里，机会难得，再往前可能就要把它们吓跑了。  
 ## 为派蒙留影  
-**![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)开始拍照**  
-### 为派蒙留影  
-> - **为派蒙留影纪念**  
-> - **画面中包含极地熊**  
+>  
+> **![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)开始拍照**  
   
+### 为派蒙留影  
+**为派蒙留影纪念**  
+**画面中包含极地熊**  
 ## 与派蒙交谈  
 - **派蒙**：我来看看你的留影技术是不是有进步了…嗯，等等，我好像看见了什么。  
 - **派蒙**：快来，快来，这好像是个车厢！  
 ## 查看废弃的列车  
 - **派蒙**：我听说至冬有很多铁轨和列车，这个应该就是吧！只是不知道为什么被废弃了…  
 - **派蒙**：唔唔，还是好冷。  
-**![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)是因为刚刚被雪埋了吗？**  
+>  
+> **![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)是因为刚刚被雪埋了吗？**  
+  
 - **派蒙**：不知道，有可能，而且我觉得雪是不是越来越大了。  
 - **派蒙**：……  
-**![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)在挪德卡莱都不会这样啊。**  
-  - **派蒙**：嗯，所以我感觉不是温度的原因…  
-**![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)冷的话可以靠近一点点哦…**  
-  - **派蒙**：虽然你这么说我很高兴，不过不是因为冷啦…  
+>  
+> **![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)在挪德卡莱都不会这样啊。**  
+>   - **派蒙**：嗯，所以我感觉不是温度的原因…  
+  
+>  
+> **![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)冷的话可以靠近一点点哦…**  
+>   - **派蒙**：虽然你这么说我很高兴，不过不是因为冷啦…  
+  
 - **派蒙**：嗯…就是有种，很奇怪的感觉…之前没有过。  
 - **派蒙**：身体…变得有点重，头也感觉有点晕…  
-**![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)要不然先回头？**  
+>  
+> **![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)要不然先回头？**  
+  
 - **派蒙**：没有没有，一点点，一点点而已，只是感觉有点没力气，不是大事，不用耽误行程。  
-**![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)别逞强哦？**  
-**![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)情况加重的话马上要告诉我。**  
+>  
+> **![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)别逞强哦？**  
+  
+>  
+> **![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)情况加重的话马上要告诉我。**  
+  
 - **派蒙**：嗯！至冬，我们来啦！  
 ## 与派蒙在风雪中同行  
 ### 寻找暂避风雪的场所  
 - **派蒙**：感觉风雪是不是越变越大了…有、有点飞不动了…  
-- > - **风雪剧烈，行动不易，等等派蒙吧**   
+**风雪剧烈，行动不易，等等派蒙吧**  
 - **派蒙**：唔，旅行者，你看那边有个小屋，呜，我们去休息一阵吧！  
 ### 通过眼前的桥梁  
-- > - **你与派蒙顶着风雪一路向前，在经过一座桥梁时，你被突如其来的暴风雪吹落到了桥底，与派蒙失散了…**   
+**你与派蒙顶着风雪一路向前，在经过一座桥梁时，你被突如其来的暴风雪吹落到了桥底，与派蒙失散了…**  
 ## 调查四周，寻找派蒙踪迹  
 > …被风雪吹落木桥，似乎掉到了奇怪的地方…派蒙也并不在身边。不知道派蒙怎么样了，得快点找到她。  
 > <div style="text-align: right;"><img alt="图标-位置.png" src="https://patchwiki.biligame.com/images/ys/thumb/4/44/bllofl3gq4aa05rhontlz73y8d43fvb.png/14px-%E5%9B%BE%E6%A0%87-%E4%BD%8D%E7%BD%AE.png" decoding="async" loading="lazy" width="14" height="17" srcset="https://patchwiki.biligame.com/images/ys/thumb/4/44/bllofl3gq4aa05rhontlz73y8d43fvb.png/21px-%E5%9B%BE%E6%A0%87-%E4%BD%8D%E7%BD%AE.png 1.5x, https://patchwiki.biligame.com/images/ys/thumb/4/44/bllofl3gq4aa05rhontlz73y8d43fvb.png/28px-%E5%9B%BE%E6%A0%87-%E4%BD%8D%E7%BD%AE.png 2x" data-file-width="512" data-file-height="630"><span style="color:9b835e">至冬 古兽冰原</span></div>  
@@ -112,7 +144,9 @@
 - **旅行者**：（那是…一节列车车厢？好像可以从车厢里上去…）  
 ## 沿着车厢向上  
 ## 查看奇怪的装置  
-**![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)调查**  
+>  
+> **![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)调查**  
+  
 - **旅行者**：（上面写着，克什尼克之炬…民用规格，打开以后倒是暖和了一些…）  
 - **旅行者**：（派蒙，她不会出什么事吧…）  
 ## 继续向前进行探索  
@@ -123,46 +157,67 @@
 - **？？？**：—检测到接近者：权限…通过，原初的…正在启动…  
 - **？？？**：您好，已然接近「明日」的超越…降临者，「 灰眸 格赖埃之眼 」为您服务…  
 - **「灰眸」**：距离上次启动已有…时间计量因…影响不可用，总之，应该是很长的时间了。  
-**![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)你是…什么东西？**  
+>  
+> **![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)你是…什么东西？**  
+  
 - **「灰眸」**：我是…我是为了使命而诞生的，为了抵达「明日」…  
 - **「灰眸」**：为此必须…奇怪，必须做什么，我…我的身体为什么…  
 - **「灰眸」**：咦…我的身体怎么会是这个样子…  
-**![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)我也想问呢？**  
-  - **「灰眸」**：抱歉，似乎由于太久没有启动，所以很多内容佚失了。  
-**![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)原来不是出生就这样哦？**  
-  - **「灰眸」**：在被造出来的时候我是这样…但我也有曾经拥有形体的记忆和意识，与现在的状态相悖…  
+>  
+> **![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)我也想问呢？**  
+>   - **「灰眸」**：抱歉，似乎由于太久没有启动，所以很多内容佚失了。  
+  
+>  
+> **![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)原来不是出生就这样哦？**  
+>   - **「灰眸」**：在被造出来的时候我是这样…但我也有曾经拥有形体的记忆和意识，与现在的状态相悖…  
+  
 - **「灰眸」**：总之，我是为了人类能够抵达「明日」而被制造出来的…只是具体的内容暂时无法载入…  
 - **「灰眸」**：不过比起那些，为「人类」服务仍然是我首要的目的，检测到您身躯表面失温，无法维持该状态行动太久…  
 - **「灰眸」**：按被设定好的流程，在再次启动的时候，我要向唤醒我的人作这样的问询：  
 - **「灰眸」**：您愿意接收我吗，超越之人，我将协助您，佑护您，达成使命，直至抵达「明日」——  
-**![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)欸，我不要，好怪…**  
-  - **「灰眸」**：我能理解您的想法，不过，出于您现在的身体状况，我不觉得这是一个好的建议。  
-  - **「灰眸」**：在启动之前，您曾经呼唤过一个名字，那应该是您失散的同伴…  
-  - **「灰眸」**：如果您同意接收，我也可以协助您走出此处时，检索与标记对方的位置。  
-  **![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)…你真的可以做到？**  
-  - **「灰眸」**：回答是：是的。  
-  **![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)…那我接收。**  
-  - **「灰眸」**：您做出了十分明智的选择。  
-**![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)我愿意接收。**  
-  - **「灰眸」**：您做出了十分明智的选择。  
-  - **「灰眸」**：那么，检测到您在之前呼唤过一个名字，那应该是您失散的同伴…  
-  - **「灰眸」**：其名为「派蒙」，我将协助您走出此处，为您检索附近符合需求的目标并标记其位置。  
-  **![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)你…还能做到这样的事？**  
-  - **「灰眸」**：这只是冰山一角。  
+>  
+> **![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)欸，我不要，好怪…**  
+>   - **「灰眸」**：我能理解您的想法，不过，出于您现在的身体状况，我不觉得这是一个好的建议。  
+>   - **「灰眸」**：在启动之前，您曾经呼唤过一个名字，那应该是您失散的同伴…  
+>   - **「灰眸」**：如果您同意接收，我也可以协助您走出此处时，检索与标记对方的位置。  
+>   >  
+>   > **![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)…你真的可以做到？**  
+>  
+>   - **「灰眸」**：回答是：是的。  
+>   >  
+>   > **![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)…那我接收。**  
+>  
+>   - **「灰眸」**：您做出了十分明智的选择。  
+  
+>  
+> **![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)我愿意接收。**  
+>   - **「灰眸」**：您做出了十分明智的选择。  
+>   - **「灰眸」**：那么，检测到您在之前呼唤过一个名字，那应该是您失散的同伴…  
+>   - **「灰眸」**：其名为「派蒙」，我将协助您走出此处，为您检索附近符合需求的目标并标记其位置。  
+>   >  
+>   > **![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)你…还能做到这样的事？**  
+>  
+>   - **「灰眸」**：这只是冰山一角。  
+  
 - **「灰眸」**：如是，接收协议已经达成，您将是我新的使用者，请问您的名字是…  
-**![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)旅行者。**  
+>  
+> **![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)旅行者。**  
+  
 - **「灰眸」**：好的，旅行者，直到完成使命之前，我都会记住这个名字。  
-**![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)使命？**  
+>  
+> **![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)使命？**  
+  
 - **「灰眸」**：是的…我需要…我需要找回我的身躯，寻回开启「明日」的力量，使受苦的众生抵达虚舟漂泊的彼岸…  
 - **「灰眸」**：我能感受到我的力量散落在这片冰芒覆盖的土地之上，甚至有模糊的方向…不过现在，那不是关键。  
 - **「灰眸」**：旅行者，现在的关键是您—— 您要存活，并且与您的同伴重新相遇。  
-- > - **获得小道具**[![image](https://patchwiki.biligame.com/images/ys/thumb/4/47/sgirjypgoobfuwag0mr8ri55248fq2f.png/30px-%E3%80%8C%E7%81%B0%E7%9C%B8%E3%80%8D.png)](/ys/%E3%80%8C%E7%81%B0%E7%9C%B8%E3%80%8D)**[「灰眸」](/ys/%E3%80%8C%E7%81%B0%E7%9C%B8%E3%80%8D) 获得成就「[极度空间](/ys/%E5%A4%A9%E5%9C%B0%E4%B8%87%E8%B1%A1#极度空间)」 「灰眸」訊息新增[关于「灰眸」訊息…](/ys/%E3%80%8C%E7%81%B0%E7%9C%B8%E3%80%8D/%E3%80%8C%E7%81%B0%E7%9C%B8%E3%80%8D%E8%A8%8A%E6%81%AF#关于「灰眸」訊息…)**   
+**获得小道具**[![image](https://patchwiki.biligame.com/images/ys/thumb/4/47/sgirjypgoobfuwag0mr8ri55248fq2f.png/30px-%E3%80%8C%E7%81%B0%E7%9C%B8%E3%80%8D.png)](/ys/%E3%80%8C%E7%81%B0%E7%9C%B8%E3%80%8D)**[「灰眸」](/ys/%E3%80%8C%E7%81%B0%E7%9C%B8%E3%80%8D)
+获得成就「[极度空间](/ys/%E5%A4%A9%E5%9C%B0%E4%B8%87%E8%B1%A1#极度空间)」
+「灰眸」訊息新增[关于「灰眸」訊息…](/ys/%E3%80%8C%E7%81%B0%E7%9C%B8%E3%80%8D/%E3%80%8C%E7%81%B0%E7%9C%B8%E3%80%8D%E8%A8%8A%E6%81%AF#关于「灰眸」訊息…)**  
 ## 拆除臻冰阻碍物  
 > **「臻冰造物」的拆除**  *折叠*  
 > [![image](https://patchwiki.biligame.com/images/ys/thumb/b/b9/l71esewtbscpdplh0e9om2q06hvdwmb.png/500px-%E6%95%99%E7%A8%8B%EF%BC%9A%E3%80%8C%E8%87%BB%E5%86%B0%E9%80%A0%E7%89%A9%E3%80%8D%E7%9A%84%E6%8B%86%E9%99%A4%C2%B71.png)](/ys/%E6%96%87%E4%BB%B6:%E6%95%99%E7%A8%8B%EF%BC%9A%E3%80%8C%E8%87%BB%E5%86%B0%E9%80%A0%E7%89%A9%E3%80%8D%E7%9A%84%E6%8B%86%E9%99%A4%C2%B71.png)  
 > 点击「凝造视界」即可进入臻冰凝造模式。当预构建的蓝图覆盖已存在的臻冰与臻冰造物，该物品将被标记为红色，此时点击「凝造」即可拆除对应的臻冰造物与臻冰。  
-> 
-  
+>  
 > 拆除臻冰后将获得臻冰计量。拆除臻冰造物后，不会返还「灰眸」的能量，但会返还相应的凝造材料。  
   
 - **「灰眸」**：现在可以执行指令：拆除。以此拆除掉堵在路上的「臻冰」并获得「臻冰单元」。  
@@ -176,19 +231,21 @@
 - **「灰眸」**：现在可以执行指令：凝造。以此创造「臻冰造物」，撑起门扉。  
 ## 寻找出去的道路  
 - **「灰眸」**：检测到周围环境…必要出口已被冰封绝…  
-**![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)或许可以用火…**  
+>  
+> **![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)或许可以用火…**  
+  
 - **「灰眸」**：那并不是具备效率的做法，稍等…附近检测到可用「造物蓝图」…  
 - **「灰眸」**：可以利用那个更快地清理眼前的坚冰。  
 ## 利用「臻冰造物」取得「造物蓝图」  
 ### 拆除「臻冰」获得足量的「臻冰单元」  
-**![image](https://patchwiki.biligame.com/images/ys/thumb/1/12/376mn8ywnuzohuih2b2vabuxbtummk9.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E8%B0%83%E6%9F%A5.png)获取「造物蓝图」**  
+>  
+> **![image](https://patchwiki.biligame.com/images/ys/thumb/1/12/376mn8ywnuzohuih2b2vabuxbtummk9.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E8%B0%83%E6%9F%A5.png)获取「造物蓝图」**  
+  
 > **简易暖源**  *折叠*  
 > 以臻冰为原材料凝造的暖源台座，会在其上生成一个简易的暖源火种。  
-> 
-  
+>  
 > 在暖源辐射的范围中，就不再需要「灰眸」消耗能量以维持体温了。  
-> 
-  
+>  
 > 暖源火种在一定范围内会进行跟随行动。不过请注意，一旦距离简易暖源的台座太远，暖源火种就会返回台座…  
   
 ## 寻找出去的道路  
@@ -200,15 +257,16 @@
 - **「灰眸」**：刚才的造物就是利用了「克什尼克晶矿」的性质，才能如此高效地进行供暖。  
 - **「灰眸」**：只可惜临时的「臻冰造物」维持时间太短，无法在开拓时期保持稳定，正因为这个，才开放了「克什尼克晶矿」的使用权。  
 - **「灰眸」**：…不过我已经忘了，「暖和」是什么感觉了。  
-**![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)或许等拿回身体…**  
+>  
+> **![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)或许等拿回身体…**  
+  
 - **「灰眸」**：是的，说不定到时候就能和您一起在炉边烤火了。  
 - **「灰眸」**：……  
 - **「灰眸」**：总之，收集克什尼克晶矿，我就可以提取其中的能量，维持您体表的温度，现在，记住这个就好。  
 > **冰雪之国的极寒**  *折叠*  
 > [![image](https://patchwiki.biligame.com/images/ys/thumb/f/fe/56xw1x3951drqv1qns51brrx0pmgst7.png/500px-%E6%95%99%E7%A8%8B%EF%BC%9A%E5%86%B0%E9%9B%AA%E4%B9%8B%E5%9B%BD%E7%9A%84%E6%9E%81%E5%AF%92%C2%B71.png)](/ys/%E6%96%87%E4%BB%B6:%E6%95%99%E7%A8%8B%EF%BC%9A%E5%86%B0%E9%9B%AA%E4%B9%8B%E5%9B%BD%E7%9A%84%E6%9E%81%E5%AF%92%C2%B71.png)  
 > 在相当寒冷的地区行动时，「灰眸」会消耗能量以保持体表的温暖。  
-> 
-  
+>  
 > 当「灰眸」的能量耗尽，则会根据当前地区的寒冷程度，使体温迅速下降…甚至会因此受伤。  
 > [![image](https://patchwiki.biligame.com/images/ys/thumb/5/52/6ki38nmabpg4tbp1006zwbfny4f5och.png/500px-%E6%95%99%E7%A8%8B%EF%BC%9A%E5%86%B0%E9%9B%AA%E4%B9%8B%E5%9B%BD%E7%9A%84%E6%9E%81%E5%AF%92%C2%B72.png)](/ys/%E6%96%87%E4%BB%B6:%E6%95%99%E7%A8%8B%EF%BC%9A%E5%86%B0%E9%9B%AA%E4%B9%8B%E5%9B%BD%E7%9A%84%E6%9E%81%E5%AF%92%C2%B72.png)  
 > 令「灰眸」的克什尼克能量增加，即可有效抵御寒冷。获取克什尼克能量的方式有很多，如靠近各种类型的克什尼克之炬、采集克什尼克晶矿等…  
@@ -221,10 +279,14 @@
 - **「灰眸」**：「去吧，去团聚吧，一同歌唱：一切人们团结一心，普世众生共欢乐…」  
 ## 前往派蒙可能在的屋子  
 - **「灰眸」**：我们正逐渐接近目标所在地。检测生体反应数量…数量为…二？  
-**![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)除了派蒙还有其他人？**  
+>  
+> **![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)除了派蒙还有其他人？**  
+  
 - **「灰眸」**：正如您所说，但我的疑惑另有原因——数据库记录此地为列车车站，生体数量不应如此之少。  
 - **「灰眸」**：依照实时收集的环境情报，此地或许已遭废弃。但无论情况如何，请您警惕。  
-**![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)去屋子里看看再说。**  
+>  
+> **![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)去屋子里看看再说。**  
+  
 - **旅行者**：……  
 - **旅行者**：派蒙！  
 - **旅行者**：…你是谁？  
@@ -237,28 +299,46 @@
 - **？？？**：在此地深究我的身份并不明智，你应该把精力放在她身上。  
 - **？？？**：很快我们就会再见。  
 - **「灰眸」**：检测到目标离开。对方似乎来历非凡，可我并未搜索到相关数据，再次遍历数据库…  
-**![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)我大概有些猜想…**  
-**![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)是直接帮女皇办事的大人物吧。**  
+>  
+> **![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)我大概有些猜想…**  
+  
+>  
+> **![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)是直接帮女皇办事的大人物吧。**  
+  
 - **「灰眸」**：万幸之事，您的同伴平安，那个人还留下了毛毯。  
-**![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)我去烧点水。**  
+>  
+> **![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)我去烧点水。**  
+  
 - **派蒙**：唔…唔…  
 - **派蒙**：啊，是旅行者！你没事，太好了！我急得到处找你…咳咳咳！  
 - **旅行者**：没关系，不用着急，你的身体还好吗？  
 - **派蒙**：还是和刚到至冬的感觉差不多，应该是着凉了，头晕晕的，实在没顶住就睡了一觉…  
 - **派蒙**：欸，「丑角」去哪里了？  
-**![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)「丑角」？那个人就是「丑角」？**  
+>  
+> **![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)「丑角」？那个人就是「丑角」？**  
+  
 - **派蒙**：对啊，愚人众的统括官，「丑角」皮耶罗 。你遇见他了？  
-**![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)嗯，说了几句话…**  
-**![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)但他没有亮明身份。**  
+>  
+> **![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)嗯，说了几句话…**  
+  
+>  
+> **![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)但他没有亮明身份。**  
+  
 - **旅行者**：（「丑角」一定知道至冬女皇的所有计划，但他不会轻易告诉我，最后很有可能演变为冲突…）  
 - **旅行者**：（嗯…至少他的判断没错，于我而言，眼下最重要的是照顾好不太舒服的派蒙。）  
 - **「灰眸」**：他无意言述动机，离去得很匆忙。  
 - **派蒙**：呜哇，谁、谁在说话？  
-**![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)这是我在冰洞里找到的。**  
+>  
+> **![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)这是我在冰洞里找到的。**  
+  
 - **派蒙**：看起来像是…一副眼镜，好神奇，居然这样的东西有自我意识，还能说话…  
 - **「灰眸」**：至冬曾是妖精的国度，留存了许多先古造物，足以让您大开眼界。不过如您这般的生物…也在扩充我的资料库…  
-**![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)就是因为有它的帮助…**  
-**![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)我才能顺利从冰洞里脱险。**  
+>  
+> **![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)就是因为有它的帮助…**  
+  
+>  
+> **![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)我才能顺利从冰洞里脱险。**  
+  
 - **派蒙**：这样啊，那太谢谢你了！我要把我最喜欢的糖…呃，看上去你好像没办法吃糖。  
 - **「灰眸」**：检测到对象表达好意，提供最偏爱策略：请帮我定期清洁，保持运行效率。  
 - **派蒙**：嘿嘿，有道理，毕竟你是「眼镜」啊。那一言为定！  
@@ -266,16 +346,24 @@
 - **派蒙**：在雪里遇见他的时候，他知道我叫派蒙，而且一副我应该认识他的样子…  
 - **派蒙**：可是我只能从眼睛看出来他是个坎瑞亚人，似乎很有来头，但不知道他就是「丑角」。  
 - **派蒙**：后来他把我从雪里救了出来，介绍了一下自己，我才知道这些信息。  
-**![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)他认识你？**  
-**![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)不会是专门来找你的吧？**  
+>  
+> **![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)他认识你？**  
+  
+>  
+> **![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)不会是专门来找你的吧？**  
+  
 - **派蒙**：应该不会吧，他是顺着我的声音冲进雪里来的，表情很着急，不像是事先知道我会在这里的样子…  
 - **派蒙**：而且他把我救到这里之后就在看雪，没对我做过任何事，甚至都不怎么和我说话，我的问题他也不回答。  
 - **派蒙**：我从他的身上感觉不到危险和恶意，而且他要是愿意理理我的话，说不定我也不会睡过去了…  
 - **「灰眸」**：请容我打断片刻，「愚人众」，以及「统括官」，于我而言都是陌生词汇，可否询问更详细的信息？  
 - **派蒙**：你居然不知道愚人众…愚人众就是，嗯，至冬女皇的左膀右臂，非常厉害的人物吧。而统括官就是他们的头头！  
 - **「灰眸」**：了解。既然身居高位，常伴神明左右，做事理应体面。另，我与派蒙女士意见一致，未能检测到对方含有恶意。  
-**![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)有道理。**  
-**![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)下次遇见他，和他道个谢吧。**  
+>  
+> **![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)有道理。**  
+  
+>  
+> **![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)下次遇见他，和他道个谢吧。**  
+  
 - **派蒙**：咳咳咳…  
 - **旅行者**：抱歉，让你说太多话了。  
 - **旅行者**：派蒙，我有个想法，我们暂时从至冬撤出去，等天气转好，你的身体也康复，我们再出发。  
@@ -289,10 +377,16 @@
 - **「灰眸」**：驾驶列车，我们就能冲破风雪，开向前方。这是至冬人的一贯做法。  
 - **「灰眸」**：前方存在一座小镇，很适合让派蒙女士暂住休整。  
 - **派蒙**：我觉得「眼镜」说的很有道理，嘿嘿，就这么办吧。  
-**![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)如果真的很难受就不要逞强。**  
+>  
+> **![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)如果真的很难受就不要逞强。**  
+  
 - **派蒙**：哎呀，放心啦，你想想看这一路走来我也没怎么生过病，我的身体好着呢，精神不好只是暂时的。  
-**![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)好吧。**  
-**![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)那我们先去镇上住一天。**  
+>  
+> **![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)好吧。**  
+  
+>  
+> **![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)那我们先去镇上住一天。**  
+  
 - **「灰眸」**：好的。后续冒险中如果需要我的帮助，请随时呼叫「灰眸」 。  
 - **「灰眸」**：除此之外的时间我会保持静默，避免不必要的麻烦。现在，请您随我到铁轨旁。  
 ## 前往屋外  
@@ -307,23 +401,31 @@
   
 ## 通过「灰眸」驱动列车  
 ## 驱车驶出暴风雪  
-- > - **在「灰眸」的协助下，你们搭乘上了列车…**   
+**在「灰眸」的协助下，你们搭乘上了列车…**  
 - **「灰眸」**：从这里向北，我们很快就会抵达…  
 - **「灰眸」**：稍等，有报错提示…无法检测到通畅的铁轨？  
 - **派蒙**：嗯，什么叫通畅的…  
 - **「灰眸」**：朋友们，做好防冲击准备！即将进入预期外的飞行模式——  
-- > - **列车带着你们，一同跌了下去…**   
+**列车带着你们，一同跌了下去…**  
 ## 与派蒙和「灰眸」交谈  
 - **「灰眸」**：真是奇怪，不仅是车站情况和记录有很大差距，就连铁路与地形都发生了改变…  
-**![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)派蒙，没事吧？**  
+>  
+> **![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)派蒙，没事吧？**  
+  
 - **派蒙**：嗯，多亏你反应快…  
 - **「灰眸」**：抱歉，把您卷入危险中，我也对现状一头雾水…  
-**![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)该找机会更新数据了。**  
-**![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)可惜了这辆列车。**  
+>  
+> **![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)该找机会更新数据了。**  
+  
+>  
+> **![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)可惜了这辆列车。**  
+  
 - **「灰眸」**：您说得对，应该是铁路数据信息过期所致。只是和老旧数据相比，变化比我想象中要更大…  
 - **「灰眸」**：不过幸运的是，按照数据，我们的坠落地就在小镇附近。  
 - **派蒙**：又是「按照数据」…  
 - **「灰眸」**：这次肯定不会错，请您看向这个方向，那就是克什尼克之炬 ！  
 - **「灰眸」**：从结果来说，我们因祸得福，走了一条最近的路。  
-**![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)只是这条路实在不算平稳。**  
+>  
+> **![image](https://patchwiki.biligame.com/images/ys/thumb/9/91/sxib8lqg4wp6zju38751a8bqr5uq9sg.png/20px-%E5%89%A7%E6%83%85%E9%80%89%E9%A1%B9-%E5%9B%BE%E6%A0%87-%E5%AF%B9%E8%AF%9D.png)只是这条路实在不算平稳。**  
+  
 - **「灰眸」**：请您放心，下次我会考虑到用户偏好的，下次一定——
