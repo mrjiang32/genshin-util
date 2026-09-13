@@ -14,7 +14,7 @@ export const INDEX_PAGES = [
   { type: "委托任务", ruleId: "tishi", extract: true },
 ];
 
-export const REQUEST_DELAY = 0;
+export const REQUEST_DELAY = 3500;
 export const MAX_RETRY = 1;
 export const FETCH_TIMEOUT = 15000;
 

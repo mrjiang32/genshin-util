@@ -12,6 +12,7 @@ import {
   safeNestedPath,
   ensureDir,
   sleepWithProgress,
+  resolveWikiHref,
 } from "./utils/utils.js";
 import { parseIndexPage } from "./utils/list-parser.js";
 import {
@@ -40,13 +41,14 @@ const { values: cliOptions } = parseArgs({
     type: { type: "string", short: "t" },
     "download-only": { type: "boolean", default: false },
     "convert-only": { type: "boolean", default: false },
+    "refresh-list": { type: "boolean", default: false },
   },
   strict: false,
 });
 
 if (cliOptions.help) {
   console.log(
-    "用法: node index.js [选项]\n选项:\n  -n, --dry-run       试运行模式\n  -l, --limit <n>     限制任务数量\n  -f, --force         强制下载\n  -t, --type <t>      按类型过滤\n      --download-only 只下载 HTML\n      --convert-only  只转换已有 HTML\n  -h, --help          显示帮助",
+    "用法: node index.js [选项]\n选项:\n  -n, --dry-run       试运行模式\n  -l, --limit <n>     限制任务数量\n  -f, --force         强制下载\n  -t, --type <t>      按类型过滤\n      --download-only 只下载 HTML\n      --convert-only  只转换已有 HTML\n      --refresh-list  重新抓取任务列表\n  -h, --help          显示帮助",
   );
   process.exit(0);
 }
@@ -86,7 +88,7 @@ function getSubStoryUrls(html) {
   $("div.tishi a[href]").each((_, element) => {
     const href = $(element).attr("href");
     if (!href || href.startsWith("#")) return;
-    urls.add(BASE_URL + href.replace("/ys/", ""));
+    urls.add(resolveWikiHref(BASE_URL, href));
   });
   return [...urls];
 }
@@ -144,11 +146,13 @@ async function downloadStoryTree(rootUrl, rootKey, item, options, actDirectory) 
 }
 
 async function buildAllTaskList() {
-  try {
-    safeLog(chalk.blue("[i] 读取本地缓存 content.json"));
-    return JSON.parse(readFileSync(CONTENT_JSON, "utf8"));
-  } catch {
-    // 缓存不存在时从索引页构建任务列表。
+  if (!cliOptions["refresh-list"]) {
+    try {
+      safeLog(chalk.blue("[i] 读取本地缓存 content.json"));
+      return JSON.parse(readFileSync(CONTENT_JSON, "utf8"));
+    } catch {
+      // 缓存不存在时从索引页构建任务列表。
+    }
   }
 
   let result = {};
@@ -223,7 +227,7 @@ async function main() {
             const item = tasks[key];
             const directory = buildActDirectory(item, key);
             await downloadStoryTree(
-              BASE_URL + encodeURIComponent(key),
+              item.url || BASE_URL + encodeURIComponent(key),
               key,
               item,
               cliOptions,

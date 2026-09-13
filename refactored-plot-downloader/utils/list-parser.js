@@ -23,10 +23,12 @@ export async function parseIndexPage(indexUrl, taskType, ruleId, extractDir = fa
     if (urlSet.has(fullUrl)) return;
     urlSet.add(fullUrl);
 
-    let pageKey = decodeURIComponent(fullUrl).replace(BASE_URL, "").split("#")[0].replace("（系列任务）", "");
-    let displayName = `${name}${name && "_"}${pageKey}`;
-    if (pageKey === name) displayName = true;
-    results[pageKey] = { displayName, type: taskType };
+    // 系列任务后缀属于页面 URL 身份，不能从任务键中删除。
+    const pageKey = decodeURIComponent(fullUrl).replace(BASE_URL, "").split("#")[0];
+    const displayPageKey = pageKey.replace("（系列任务）", "");
+    let displayName = `${name}${name && "_"}${displayPageKey}`;
+    if (displayPageKey === name) displayName = true;
+    results[pageKey] = { displayName, type: taskType, url: fullUrl };
   };
 
   if (ruleId === "taskIcon") {
