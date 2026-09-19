@@ -286,10 +286,18 @@ async function main() {
   }
 }
 
-process.on("SIGINT", () => {
+let isShuttingDown = false;
+
+function handleShutdown(signal) {
+  if (isShuttingDown) process.exit(128 + (signal === "SIGINT" ? 2 : 15));
+  isShuttingDown = true;
   failProgress("中断");
-  process.exit(0);
-});
+  process.exitCode = signal === "SIGINT" ? 130 : 143;
+  process.exit();
+}
+
+process.once("SIGINT", () => handleShutdown("SIGINT"));
+process.once("SIGTERM", () => handleShutdown("SIGTERM"));
 
 main().catch((error) => {
   failProgress("程序异常");
