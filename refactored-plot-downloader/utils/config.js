@@ -22,6 +22,7 @@ const projectDir = join(dirname(fileURLToPath(import.meta.url)), "..");
 export const OUT_DIR = join(projectDir, "plots");
 export const CFG_DIR = join(projectDir, "config");
 export const DONE_FILE = join(CFG_DIR, "done.json");
+export const FAILED_FILE = join(CFG_DIR, "failed.json");
 export const CONTENT_JSON = join(CFG_DIR, "content.json");
 
 if (!existsSync(OUT_DIR)) mkdirSync(OUT_DIR, { recursive: true });

@@ -21,6 +21,7 @@ import {
   OUT_DIR,
   REQUEST_DELAY,
   BASE_URL,
+  FAILED_FILE,
 } from "./utils/config.js";
 import { convertDirectory } from "./parser/convert.js";
 import {
@@ -42,13 +43,14 @@ const { values: cliOptions } = parseArgs({
     "download-only": { type: "boolean", default: false },
     "convert-only": { type: "boolean", default: false },
     "refresh-list": { type: "boolean", default: false },
+    "retry-failed": { type: "boolean", default: false },
   },
   strict: false,
 });
 
 if (cliOptions.help) {
   console.log(
-    "用法: node index.js [选项]\n选项:\n  -n, --dry-run       试运行模式\n  -l, --limit <n>     限制任务数量\n  -f, --force         强制下载\n  -t, --type <t>      按类型过滤\n      --download-only 只下载 HTML\n      --convert-only  只转换已有 HTML\n      --refresh-list  重新抓取任务列表\n  -h, --help          显示帮助",
+      "用法: node index.js [选项]\n选项:\n  -n, --dry-run       试运行模式\n  -l, --limit <n>     限制任务数量\n  -f, --force         强制下载\n  -t, --type <t>      按类型过滤\n      --download-only 只下载 HTML\n      --convert-only  只转换已有 HTML\n      --refresh-list  重新抓取任务列表\n      --retry-failed  只重试失败列表中的任务\n  -h, --help          显示帮助",
   );
   process.exit(0);
 }
@@ -95,6 +97,35 @@ function getSubStoryUrls(html) {
 
 function pageName(url) {
   return decodeURIComponent(url).replace(BASE_URL, "");
+}
+
+function loadFailedTasks() {
+  if (!existsSync(FAILED_FILE)) return {};
+  try {
+    return JSON.parse(readFileSync(FAILED_FILE, "utf8"));
+  } catch {
+    safeLog(chalk.yellow(`[!] 无法读取失败列表: ${FAILED_FILE}`));
+    return {};
+  }
+}
+
+function saveFailedTasks(failedTasks) {
+  writeFileSync(FAILED_FILE, JSON.stringify(failedTasks, null, 2), "utf8");
+}
+
+function markTaskFailed(failedTasks, key, item, error) {
+  failedTasks[key] = {
+    url: item.url || BASE_URL + encodeURIComponent(key),
+    error: error.message,
+    updatedAt: new Date().toISOString(),
+  };
+  saveFailedTasks(failedTasks);
+}
+
+function clearTaskFailure(failedTasks, key) {
+  if (!failedTasks[key]) return;
+  delete failedTasks[key];
+  saveFailedTasks(failedTasks);
 }
 
 async function waitBeforeRequest(label, firstRequest) {
@@ -203,8 +234,12 @@ function addTaskIndexes(tasks) {
 async function main() {
   const tasks = await buildAllTaskList();
   addTaskIndexes(tasks);
+  const failedTasks = loadFailedTasks();
 
   let taskKeys = Object.keys(tasks);
+  if (cliOptions["retry-failed"]) {
+    taskKeys = taskKeys.filter((key) => failedTasks[key]);
+  }
   if (cliOptions.limit) {
     const limit = Number.parseInt(cliOptions.limit, 10);
     if (Number.isInteger(limit) && limit > 0) taskKeys = taskKeys.slice(0, limit);
@@ -222,9 +257,9 @@ async function main() {
     } else {
       initProgress(taskKeys.length);
       for (const key of taskKeys) {
+        const item = tasks[key];
         try {
           if (!cliOptions.dryRun) {
-            const item = tasks[key];
             const directory = buildActDirectory(item, key);
             await downloadStoryTree(
               item.url || BASE_URL + encodeURIComponent(key),
@@ -233,8 +268,10 @@ async function main() {
               cliOptions,
               directory,
             );
+            clearTaskFailure(failedTasks, key);
           }
         } catch (error) {
+          markTaskFailed(failedTasks, key, item, error);
           safeLog(chalk.red(`[x] 下载失败 [${key}]: ${error.message}`));
         }
         incrementProgress();
