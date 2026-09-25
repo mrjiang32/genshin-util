@@ -111,13 +111,44 @@ _parsers["#text"] = ($, $el, $parent) => {
     text: rawText,
   };
 };
+_parsers.ruby = ($, $el) => {
+  const speaker = $el.children("rb").text()?.trim();
+  const annotation = $el.children("rt").text()?.trim();
+  if (!speaker) return { type: "null" };
+  return {
+    type: "text",
+    text: annotation ? `${speaker}(${annotation})` : speaker,
+  };
+};
 _parsers.span = genParser("bold");
 _parsers.b = genParser("bold");
 _parsers.strong = genParser("bold");
 _parsers.em = genParser("italic");
 _parsers.i = genParser("italic");
 _parsers.p = genParser("node");
-_parsers.li = genParser("element");
+_parsers.li = ($, $el, $parent) => {
+  const ruby = $el.children("ruby").first();
+  if (!ruby.length) return genParser("element")($, $el, $parent);
+
+  const directContent = $el.clone().children("ul, ol").remove().end();
+  const rawText = directContent.text()?.replace(/\s+/g, " ").trim() ?? "";
+  const separatorIndex = rawText.indexOf("：");
+  if (separatorIndex < 0) return genParser("element")($, $el, $parent);
+
+  const speaker = ruby.children("rb").text()?.trim() ?? "";
+  const annotation = ruby.children("rt").text()?.trim() ?? "";
+  const children = [{
+    type: "dialog",
+    speaker: annotation ? `${speaker}(${annotation})` : speaker,
+    text: rawText.slice(separatorIndex + 1).trim(),
+  }];
+
+  $el.children("ul, ol").each((_, element) => {
+    children.push(parseOne($, $(element), $el));
+  });
+
+  return { type: "element", children };
+};
 _parsers.ul = ($, $el, $parent) => {
   const children = parseAll($, $el);
   return {

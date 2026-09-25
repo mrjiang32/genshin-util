@@ -78,11 +78,21 @@ function renderSingleNode(node) {
       return `[${node.children ? renderMdAst(node.children).join("") : ""}](${node.href})`;
 
     // 列表项：加上 "- " 前缀，并作为独立的一行
-    case "element":
-      const elContent = node.children
-        ? renderMdAst(node.children).join(" ").split("\n").join(" ")
-        : "";
-      return `- ${elContent}`;
+    case "element": {
+      const nestedLines = [];
+      let inlineContent = "";
+
+      for (const child of node.children ?? []) {
+        const renderedChild = renderSingleNode(child);
+        if (Array.isArray(renderedChild)) {
+          nestedLines.push(...renderedChild);
+        } else {
+          inlineContent += renderedChild;
+        }
+      }
+
+      return [`- ${inlineContent}`, ...nestedLines];
+    }
 
     // 缩进容器：递归获取子节点行，并在每行前面加上缩进（例如 2 个空格）
     case "indent":

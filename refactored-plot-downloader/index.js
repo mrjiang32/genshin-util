@@ -2,7 +2,8 @@ import { load } from "cheerio";
 import { parseArgs } from "node:util";
 import path from "node:path";
 import chalk from "chalk";
-import { existsSync, readFileSync, writeFileSync } from "node:fs";
+import { existsSync, readFileSync, unlinkSync, writeFileSync } from "node:fs";
+import { rimraf } from "rimraf";
 
 import {
   fetchHtml,
@@ -44,14 +45,29 @@ const { values: cliOptions } = parseArgs({
     "convert-only": { type: "boolean", default: false },
     "refresh-list": { type: "boolean", default: false },
     "retry-failed": { type: "boolean", default: false },
+    clean: { type: "boolean", default: false },
   },
   strict: false,
 });
 
 if (cliOptions.help) {
   console.log(
-      "用法: node index.js [选项]\n选项:\n  -n, --dry-run       试运行模式\n  -l, --limit <n>     限制任务数量\n  -f, --force         强制下载\n  -t, --type <t>      按类型过滤\n      --download-only 只下载 HTML\n      --convert-only  只转换已有 HTML\n      --refresh-list  重新抓取任务列表\n      --retry-failed  只重试失败列表中的任务\n  -h, --help          显示帮助",
+      "用法: node index.js [选项]\n选项:\n  -n, --dry-run       试运行模式\n  -l, --limit <n>     限制任务数量\n  -f, --force         强制下载\n  -t, --type <t>      按类型过滤\n      --download-only 只下载 HTML\n      --convert-only  只转换已有 HTML\n      --refresh-list  重新抓取任务列表\n      --retry-failed  只重试失败列表中的任务\n      --clean          清理下载文件、Markdown 和运行缓存\n  -h, --help          显示帮助",
   );
+  process.exit(0);
+}
+
+async function cleanGeneratedFiles() {
+  await rimraf(OUT_DIR);
+  for (const file of [CONTENT_JSON, FAILED_FILE]) {
+    if (existsSync(file)) unlinkSync(file);
+  }
+  ensureDir(OUT_DIR);
+  safeLog(chalk.green("[i] 已清理下载文件、Markdown 和运行缓存"));
+}
+
+if (cliOptions.clean) {
+  await cleanGeneratedFiles();
   process.exit(0);
 }
 
